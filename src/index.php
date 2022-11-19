@@ -17,7 +17,7 @@ require_once('head.html');
     <li>Tesztelni, hogy megfelelően működik e a mysqli_error (nem tudom tényleg jó e)</li>
     <li>Személyre szabni a menüt (legalább hogy merre van zárva vagy ilyesmi)</li>
     <li>Személyre szabní a stílust (üresen hagytam egy csomó mindent, amit hibaként ír a style.css)</li>
-    <li>személyre szabni a kommenteket, függvényeket, fájlneveket, stb., hogy ne annyira látszódjon hogy másolt</li>
+    <li>személyre szabni a kommenteket, függvényeket, fájlneveket, mappa rendszert, stb., hogy ne annyira látszódjon hogy másolt</li>
     <li>Megírni a lényegi működését a programnak</li>
 </ul>
 
