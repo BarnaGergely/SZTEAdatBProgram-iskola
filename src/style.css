@@ -1,3 +1,7 @@
+/* <><><><><><>  General  <><><><><><> 
+Töröljétek vagy állítsátok be az adattagokat, amiket nem állítottam be
+*/
+
 /* <><><><><><>  General  <><><><><><> */
 :root {
   /*globális változók helye*/
@@ -42,6 +46,7 @@ a:hover {
   color: ;
 }
 /* <><><><><><>-  Layout  <><><><><><> */
+
 .container {
   background-color: ;
   margin-bottom: 1rem;
