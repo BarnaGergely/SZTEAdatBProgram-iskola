@@ -1,5 +1,5 @@
 <?php
-require_once('head.html');
+require_once('head.php');
 ?>
 <section class="container">
     <h1>Üdvözlünk a könyvtárban!</h1>
@@ -24,5 +24,5 @@ require_once('head.html');
 </section>
 
 <?php
-require_once('footer.html');
+require_once('footer.php');
 ?>

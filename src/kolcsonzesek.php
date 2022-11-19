@@ -1,5 +1,5 @@
 <?php
-require_once('head.html');
+require_once('head.php');
 ?>
 
 <section class="container">
@@ -82,5 +82,5 @@ require_once('head.html');
 
 
 <?php
-require_once('footer.html');
+require_once('footer.php');
 ?>

@@ -1,5 +1,5 @@
 <?php
-require_once('head.html');
+require_once('head.php');
 ?>
 <section class="container">
 
@@ -60,5 +60,5 @@ mysqli_free_result($konyvek); // töröljük a listát a memóriából
 </table>
 
 <?php
-require_once('footer.html');
+require_once('footer.php');
 ?>
