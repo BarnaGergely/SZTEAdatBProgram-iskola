@@ -38,6 +38,21 @@ require_once('head.php');
 	</form>
 
 
+
+	<label>Tanár: </label>
+		<select name="Tanar">
+			<?php
+			$tanarok = tanarLeker();
+			while ($egySor = mysqli_fetch_assoc($tanarok)) {
+				echo '<option value="' . $egySor["Szemelyiigazolvanyszam"] . '">' .
+					$egySor["Nev"] . ' - ' .
+					$egySor["Szemellyiigazolvanyszam"] . '</option>';
+			}
+			mysqli_free_result($tanarok);
+			?>
+		</select>
+		<br>
+
 	<hr />
 </section>
 

@@ -5,8 +5,8 @@ require_once('head.php');
 
    <h1>Könyvek felvitele</h1>
 
-   <form method="POST" action="konyvfelvitel.php" accept-charset="utf-8">
 
+   <form method="POST" action="konyvfelvitel.php" accept-charset="utf-8">
       <label>Könyv száma: </label>
       <input type="text" name="konyvszam" />
       <br>
@@ -20,10 +20,12 @@ require_once('head.php');
       <input type="text" name="kiado" />
       <br>
       <label>Kiadás éve: </label>
-      <input type="text" name="ev" />
+      <input type="date" name="ev" />
       <br>
       <input type="submit" value="Elküld" />
    </form>
+
+
    <hr />
 </section>
 <section class="container">

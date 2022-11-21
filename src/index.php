@@ -1,6 +1,19 @@
 <?php
 require_once('head.php');
 ?>
+
+<?php 
+$valtozo1 = 1;
+$valtozo2 = "1";
+
+if ($valtozo1 !== $valtozo2) {
+    echo "igaz";
+} else {
+    echo "hamis";
+}
+
+
+?>
 <section class="container">
     <h1>Üdvözlünk a könyvtárban!</h1>
 
